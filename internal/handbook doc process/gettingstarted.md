@@ -2,9 +2,9 @@
 
 Before you begin working on the ILP handbook documentation, familiarize yourself with the following:
 
-* [Sphinx] (http://www.sphinx-doc.org/)
-* [reStructuredText (reST) syntax] (http://www.sphinx-doc.org/en/stable/rest.html)
-* [Read The Docs documentation hosting] (https://readthedocs.org/)
+* [Sphinx](http://www.sphinx-doc.org/)
+* [reStructuredText (reST) syntax](http://www.sphinx-doc.org/en/stable/rest.html)
+* [Read The Docs documentation hosting](https://readthedocs.org/)
 
 # Installation
 
@@ -14,7 +14,7 @@ Ensure that you have Git, Python, and Sphinx installed on your desktop.
 
 Note that Sphinx works with Python 2.7.x and not the 3.x bundle.
 
-[Instructions to install Python 2.7.x] (https://www.python.org/downloads/release/python-2713/)
+[Instructions to install Python 2.7.x](https://www.python.org/downloads/release/python-2713/)
 
 **Pro Tips:** 
 
@@ -25,7 +25,7 @@ Note that Sphinx works with Python 2.7.x and not the 3.x bundle.
 
 Sphinx is an open source documentation tool that makes it easy to auto-create and preview documentation in reStructuredText. It also enables you to generate easy to preview static HTML sites.
 
-[Instructions to install Sphinx] (http://www.sphinx-doc.org/en/stable/install.html)
+[Instructions to install Sphinx](http://www.sphinx-doc.org/en/stable/install.html)
 
 The easiest way to install the latest version of Sphinx is using the following `pip` command:
 
@@ -35,11 +35,11 @@ The easiest way to install the latest version of Sphinx is using the following `
 
 reST is a WYSIWYG plain text markup language. While you can use markdown with Sphinx, reST is recommended for technical documentation given its better structured, well defined syntax, and more text formatting options.
 
-For more information, read the [definitive documentation on reST] (http://docutils.sourceforge.net/rst.html).
+For more information, read the [definitive documentation on reST](http://docutils.sourceforge.net/rst.html).
 
 ## About Read The Docs
 
 Read The Docs is a community maintained, open source documentation hosting service. It provides version control and multiple output options, such as PDF, ePub, etc.
 
-For more information, read the [RTD documentation] (http://dont-be-afraid-to-commit.readthedocs.io/en/latest/index.html).
+For more information, read the [RTD documentation](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/index.html).
 
