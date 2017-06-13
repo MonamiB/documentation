@@ -16,8 +16,10 @@ In our case, the instructions are for working on the `klpdotorg/documentation/ha
 
 1. Create test build. 
 
+    ```
     path to git folder\handbook> make clean
     path to git folder\handbook> make html
+    ```
 
 2. Navigate to the build folder and preview the `index.htm` on your browser.
 3. Verify the content, format, cross-references, etc.
@@ -53,10 +55,10 @@ To automate publishing each change committed to master in Github:
 
 1. Create the source and build directories with all the relevant scripts and the configuration file. This is a one-time process.
     
-    sphinx-quickstart
+    `sphinx-quickstart`
 
 2. Follow the instructions onscreen and provide the requisite data for files/folders creation, file extensions, output types, automation scripts etc.
 
 3. Navigate to the created directory where you should see all the files/folders/scripts you have selected in the last step, primarily a build script (`Makefile`), configuration script (`conf.py`), and `index.rst`.
 
-4. You can now start you project by creating new topics and updating the index.rst file accordingly. Read the relevant documentation for comprehensive information on [reST](http://www.sphinx-doc.org/en/stable/rest.html) and [Sphinx](http://www.sphinx-doc.org/en/stable/index.html). 
+4. You can now start you project by creating new topics and updating the index.rst file accordingly. Refer to the relevant documentation for comprehensive information on [reST](http://www.sphinx-doc.org/en/stable/rest.html) and [Sphinx](http://www.sphinx-doc.org/en/stable/index.html). 
