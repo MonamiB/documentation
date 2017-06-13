@@ -2,6 +2,8 @@
 
 In our case, the instructions are for working on the `klpdotorg/documentation/handbook` repository.
 
+Before proceeding [Read Previous](1_gettingstarted.md).
+
 ## Update
 
 **Important:** *Ensure that you create a branch and maintain all changes in it till the peer review is done. Merging the changes to master automatically triggers an RTD build and content is pushed to production, so it is important to commit only validated content.*
@@ -27,7 +29,7 @@ In our case, the instructions are for working on the `klpdotorg/documentation/ha
 
 **Pro Tip:**
 
-Set the `build`, `static`, and `templates` directories to `.gitignore`.
+Set the `build`, `static`, and `templates` directories to `.gitignore`; these folders are not used in RTD.
 
 ## Review and Commit
 
