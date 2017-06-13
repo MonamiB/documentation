@@ -18,7 +18,7 @@ Note that Sphinx works with Python 2.7.x and not the 3.x bundle.
 
 **Pro Tips:** 
 
-* If you are on a machine with 4gb RAM, install the 32 bit package.
+* If you are using a machine with 4GB RAM, install the 32 bit package.
 * Any version above 2.7.9 come with `pip` bundled.
 
 ## Sphinx
@@ -33,13 +33,17 @@ The easiest way to install the latest version of Sphinx is using the following `
 
 ## About reST
 
-reST is a WYSIWYG plain text markup language. While you can use markdown with Sphinx, reST is recommended for technical documentation  due to its better structured and well defined syntax, and greater text formatting options.
+reST is a WYSIWYG plain text markup language. While you can use markdown with Sphinx, reST is recommended for technical documentation  due to the better structured and well defined syntax, and greater text formatting options.
 
 For more information, read the [definitive documentation on reST](http://docutils.sourceforge.net/rst.html).
 
 ## About RTD
 
-RTD is a community maintained, open source documentation hosting service. It provides version control and multiple output options, such as PDF, ePub, etc.
+RTD is a community maintained, open source, documentation hosting service. It provides version control and multiple output options, in addition to other useful features.
 
 For more information on usage and implementation, read the [RTD documentation](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/index.html).
+
+[Read Next](2_docprocess.md)
+
+
 
