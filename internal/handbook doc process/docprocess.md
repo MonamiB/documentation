@@ -1,16 +1,16 @@
 # Documentation Process
 
-In our case, the instructions are for working on the klpdotorg/documentation/handbook repository.
+In our case, the instructions are for working on the `klpdotorg/documentation/handbook` repository.
 
 ## Update
 
-**Important:** Ensure that you create a branch and maintain all changes in it till the peer review is done. Merging the changes to master automatically triggers an RTD build and content is pushed to production, so it is important to commit only validated content.
+**Important:** *Ensure that you create a branch and maintain all changes in it till the peer review is done. Merging the changes to master automatically triggers an RTD build and content is pushed to production, so it is important to commit only validated content.*
 
-1. Clone the git repo on your desktop. This is a one-time only process. Henceforth, you will need to checkout the latest version of the documentation in a new branch before you edit the content.
-2. Navigate to handbook/source folder.
+1. Clone the git repo on your desktop. This is a one-time only process. Henceforth, you will need to checkout the latest version of the documentation in a new branch before you edit and commit the content.
+2. Navigate to the `../handbook/source` folder.
 3. Open the relevant `.rst` file using a text editor and update as required.
-4. If you have created a new file, using .rst extension is recommended, though RTD recognizes `.txt` and `.md` extensions as well. 
-5. Update the `index.rst` file to reflect the new topic in the correct hierarchy.
+4. If you have created a new file, using the `.rst` extension is recommended, though RTD recognizes `.txt` and `.md` extensions as well. 
+5. Update the `index.rst` file to reflect the new topic in the correct hierarchy. If you have edited an existing file, you may skip this step.
 
 ## Preview
 
@@ -25,11 +25,11 @@ In our case, the instructions are for working on the klpdotorg/documentation/han
 
 **Pro Tip:**
 
-Ensure that build static and templates directories are listed in `.gitignore`.
+Set the `build`, `static`, and `templates` directories to `.gitignore`.
 
-## Review
+## Review and Commit
 
-Once the content has been through a round of peer review, merge the branch to master. This will automatically trigger an RTD build and the changes will be pushed to production.
+Once the content has been through a round of peer review, merge the branch to master. This will automatically trigger an RTD build and the approved changes will be pushed to production.
 
 ## Publishing on RTD
 
@@ -55,4 +55,8 @@ To automate publishing each change committed to master in Github:
     
     sphinx-quickstart
 
-2. Follow the instructions onscreen and provide the requisite data.
+2. Follow the instructions onscreen and provide the requisite data for files/folders creation, file extensions, output types, automation scripts etc.
+
+3. Navigate to the created directory where you should see all the files/folders/scripts you have selected in the last step, primarily a build script (`Makefile`), configuration script (`conf.py`), and `index.rst`.
+
+4. You can now start you project by creating new topics and updating the index.rst file accordingly. Read the relevant documentation for comprehensive information on [reST](http://www.sphinx-doc.org/en/stable/rest.html) and [Sphinx](http://www.sphinx-doc.org/en/stable/index.html). 
