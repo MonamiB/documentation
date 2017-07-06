@@ -1,4 +1,5 @@
-#What Next?
+Next Steps
+==========
 
 Once you have the ILP platform up and running, you will need a data entry software setup and linked to the platform.
 
