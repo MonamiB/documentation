@@ -40,6 +40,12 @@ Contents
    :caption: WHAT NEXT
    
    whtnxt.rst
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: CASE STUDY
+   
+   casestudy.rst
 
 .. toctree::
    :maxdepth: 2
