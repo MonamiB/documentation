@@ -34,6 +34,12 @@ Contents
    ilp_hosted.rst
    self_hosted.rst
    troubleshooting.rst
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: WHAT NEXT
+   
+   whtnxt.rst
 
 .. toctree::
    :maxdepth: 2
